@@ -52,6 +52,10 @@ for (let i = 0; i < teamMembers.length; i++) {
 
   const memberInfo = document.createElement("div");
 
+  const photo = document.createElement("img");
+  photo.src = `img/${member.image}`;
+  memberInfo.appendChild(photo);
+
   const name = document.createElement("p");
   name.textContent = `Name: ${member.name}`;
   memberInfo.appendChild(name);
@@ -59,10 +63,6 @@ for (let i = 0; i < teamMembers.length; i++) {
   const role = document.createElement("p");
   role.textContent = `Role: ${member.role}`;
   memberInfo.appendChild(role);
-
-  const photo = document.createElement("img");
-  photo.src = `img/${member.image}`;
-  memberInfo.appendChild(photo);
 
   teamContainer.appendChild(memberInfo);
 }

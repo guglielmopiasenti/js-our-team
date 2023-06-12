@@ -1,0 +1,57 @@
+/* CSS RESET */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Raleway', sans-serif;
+ }
+
+ /* MAIN CSS */
+
+ main {
+    background-color: rgba(0, 139, 139, 0.2);
+ }
+
+ .title-container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    padding: 20px 0;
+ }
+
+ h1 {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+ }
+
+
+ #team-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+ }
+
+ img {
+    width: 300px;
+ }
+
+ #team-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ }
+
+ p:nth-child(2) {
+    padding: 15px 0;
+ }
