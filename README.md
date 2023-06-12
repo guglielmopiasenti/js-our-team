@@ -29,3 +29,8 @@ Walter Gordon | Office Manager | walter-gordon-office-manager.jpg
 Angela Lopez | Social Media Manager | angela-lopez-social-media-manager.jpg
 Scott Estrada | Developer | scott-estrada-developer.jpg
 Barbara Ramos | Graphic Designer | barbara-ramos-graphic-designer.jpg
+
+# PROCEDURE
+
+1. Creating the array with available data
+2.
