@@ -34,4 +34,5 @@ Barbara Ramos | Graphic Designer | barbara-ramos-graphic-designer.jpg
 
 1. Creating the array with available data
 2. I create a for-of loop to print the member's detail on the console.
-3. I create a for...of loop to print the member's detail on the DOM
+3. I get the target container element from the DOM
+4. I create a for...of loop to print the member's detail on the DOM
