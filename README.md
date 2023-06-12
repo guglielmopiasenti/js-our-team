@@ -33,4 +33,5 @@ Barbara Ramos | Graphic Designer | barbara-ramos-graphic-designer.jpg
 # PROCEDURE
 
 1. Creating the array with available data
-2.
+2. I create a for-of loop to print the member's detail on the console.
+3. I create a for...of loop to print the member's detail on the DOM

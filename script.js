@@ -1,3 +1,5 @@
+// Team members array
+
 const teamMembers = [
   {
     name: "Wayne Barnett",
@@ -30,3 +32,13 @@ const teamMembers = [
     image: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+//  For...of loop to print details on the console
+
+for (const member of teamMembers) {
+  console.log(`Name: ${member.name}`);
+  console.log(`Role: ${member.role}`);
+  console.log(`Photo: ${member.image}`);
+}
+
+// For...of loop to print the member's detail on the DOM
