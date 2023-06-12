@@ -41,4 +41,28 @@ for (const member of teamMembers) {
   console.log(`Photo: ${member.image}`);
 }
 
-// For...of loop to print the member's detail on the DOM
+// Target element from DOM
+
+const teamContainer = document.getElementById("team-container");
+
+// For loop to print the member's detail on the DOM
+
+for (let i = 0; i < teamMembers.length; i++) {
+  const member = teamMembers[i];
+
+  const memberInfo = document.createElement("div");
+
+  const name = document.createElement("p");
+  name.textContent = `Name: ${member.name}`;
+  memberInfo.appendChild(name);
+
+  const role = document.createElement("p");
+  role.textContent = `Role: ${member.role}`;
+  memberInfo.appendChild(role);
+
+  const photo = document.createElement("img");
+  photo.src = `img/${member.image}`;
+  memberInfo.appendChild(photo);
+
+  teamContainer.appendChild(memberInfo);
+}
