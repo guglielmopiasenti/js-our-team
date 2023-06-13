@@ -12,11 +12,11 @@
     background-color: rgba(0, 139, 139, 0.2);
  }
 
- .title-container {
+ .title-container, .social-section {
     width: 700px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     gap: 15px;
@@ -54,4 +54,12 @@
 
  p:nth-child(2) {
     padding: 15px 0;
+ }
+
+ .list-inline {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
  }
